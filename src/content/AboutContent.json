@@ -1,15 +1,10 @@
 {
   "title": "Paniabes llegó para ayudarte a criar a tu bebe",
-  "text": "Nuestra misión es que las familias modernas tengan una forma facíl para resolver las tareas diarias dentro de un hogar",
+  "text": "Nuestra misión es que las familias modernas tengan una forma facíl para resolver las tareas diarias dentro de un hogar, cuidando el medio ambiente",
   "section": [
     {
       "title": "Porque Paniables?",
-      "content": "estamos dedicados al cuidado del niñe, brindarte soluciones y contencion en esta etapa tan linda que te toca vivir",
-      "icon": "notes.svg"
-    },
-    {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "content": "estamos dedicados al cuidado del niñe, brindarte soluciones y contención en esta etapa tan linda que nos toca vivir",
       "icon": "notes.svg"
     }
   ]
