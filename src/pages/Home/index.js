@@ -42,7 +42,7 @@ const Home = () => {
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
+        icon="../icons/charcoal_insert.png"
         id="mission"
       />
       <ContentBlock

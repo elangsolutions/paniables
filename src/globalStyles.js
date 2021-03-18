@@ -63,8 +63,11 @@ const Styles = createGlobalStyle`
 
     .about-block-image svg {
         text-align: center;
+        & img {
+            border-radius: 20%;
+        }
     }
-
+    
     .ant-drawer-body {
         display: flex;
         flex-direction: column;
