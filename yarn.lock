@@ -1201,6 +1201,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
+"@fontsource/arima-madurai@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@fontsource/arima-madurai/-/arima-madurai-4.2.2.tgz#cdbf846efb87b45d3511a00f97a7342803b10f81"
+  integrity sha512-+XRUWpJUur70iZfmOsjdZuQd46mAbNW0x/DpoUON79HCF0CxK/5kT6s3NP4Sm9GJoO8wXIxsFKhk9DlTQ14O1Q==
+
 "@jest/types@^26.6.2":
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-26.6.2.tgz#bef5a532030e1d88a2f5a6d933f84e97226ed48e"

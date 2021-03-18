@@ -14,6 +14,7 @@ export const LogoContainer = styled(Link)`
 export const Container = styled.div`
   position: relative;
   width: 100%;
+  text-align: center;
   max-width: 1280px;
   padding-right: 25px;
   padding-left: 25px;
@@ -84,7 +85,7 @@ export const CustomNavLinkSmall = styled(NavLink)`
 export const Label = styled.span`
   font-size: 12px;
   font-weight: 500;
-  color: #404041;
+  color: #f79898;
   text-align: right;
   display: flex;
 `;

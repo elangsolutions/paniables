@@ -1,10 +1,10 @@
 {
-  "title": "Light, Fast & Responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Paniabes llegó para ayudarte a criar a tu bebe",
+  "text": "Nuestra misión es que las familias modernas tengan una forma facíl para resolver las tareas diarias dentro de un hogar",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Porque Paniables?",
+      "content": "estamos dedicados al cuidado del niñe, brindarte soluciones y contencion en esta etapa tan linda que te toca vivir",
       "icon": "notes.svg"
     },
     {

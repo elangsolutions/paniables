@@ -5,7 +5,7 @@ const Styles = createGlobalStyle`
     body,
     html,
     a {
-        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Arima madurai';
     }
 
 
@@ -28,8 +28,8 @@ const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Ubuntu', sans-serif;
-        color: #0a1f44;
+        font-family: 'Arima madurai';
+        color: #b3b3b3;
         font-size: 2.575rem;
         line-height: 3.0625rem;
       
@@ -39,7 +39,7 @@ const Styles = createGlobalStyle`
     }
 
     p {
-        color: #343D48;
+        color: #096dd9;
         font-size: 1.125rem;
     }
 
