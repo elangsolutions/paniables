@@ -1,0 +1,26 @@
+[class~='ant-col'] {
+    background: transparent;
+    border: 2rem;
+}
+
+[class~='ant-col'] > div {
+    height: 120px;
+    font-size: 14px;
+    line-height: 120px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.ant-col {
+    padding: 0;
+}
+
+.container-row {
+    height: 550px;
+    max-height: 700px;
+}
+
+
+[data-theme="dark"] [class~='ant-col'] > div {
+    background: #f9f9f9;
+}

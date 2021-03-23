@@ -25,11 +25,6 @@ const Home = () => {
         icon="../icons/diapers.png"
         id="intro"
       />
-      {/*<MiddleBlock*/}
-      {/*  title={MiddleBlockContent.title}*/}
-      {/*  content={MiddleBlockContent.text}*/}
-      {/*  button={MiddleBlockContent.button}*/}
-      {/*/>*/}
       <ContentBlock
         type="right"
         title={AboutContent.title}

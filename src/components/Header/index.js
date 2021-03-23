@@ -1,7 +1,8 @@
-import React, { useState, Fragment, lazy } from "react";
+import React, { useState, lazy } from "react";
 import { Row, Col, Drawer } from "antd";
 import { CSSTransition } from "react-transition-group";
 import { withTranslation } from "react-i18next";
+import {useHistory} from 'react-router-dom'
 
 import * as S from "./styles";
 
@@ -9,6 +10,7 @@ const SvgIcon = lazy(() => import("../../common/SvgIcon"));
 const Button = lazy(() => import("../../common/Button"));
 
 const Header = ({ t }) => {
+  const history = useHistory()
   const [isNavVisible] = useState(false);
   const [isSmallScreen] = useState(false);
   const [visible, setVisibility] = useState(false);
@@ -30,8 +32,8 @@ const Header = ({ t }) => {
       setVisibility(false);
     };
     return (
-      <Fragment>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
+      <>
+        <S.CustomNavLinkSmall onClick={() => history.push('/products')}>
           <S.Span>{t("Productos")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
@@ -45,7 +47,7 @@ const Header = ({ t }) => {
             <Button>{t("Contactarse")}</Button>
           </S.Span>
         </S.CustomNavLinkSmall>
-      </Fragment>
+      </>
     );
   };
 

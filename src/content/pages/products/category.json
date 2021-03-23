@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Bebes",
+    "key": "baby",
+    "subCategories": [
+      {
+        "title": "Pañales",
+        "key": "diapers",
+        "items": [
+          {
+            "title": "Recien nacido",
+            "key": "newBorn"
+          },
+          {
+            "title": "3 a 15 kg",
+            "key": "upto15"
+          },
+          {
+            "title": "Insertos",
+            "key": "inserts"
+          },
+          {
+            "title": "Pileta",
+            "key": "pool"
+          },
+          {
+            "title": "accesorios",
+            "key": "babyAccesories"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Adultos",
+    "key": "adults",
+    "subCategories": [
+      {
+        "title": "Ellas",
+        "key": "women",
+        "items": [
+          {
+            "title": "Toallitas",
+            "key": "wipes"
+          },
+          {
+            "title": "Copa Menstrual",
+            "key": "womenCup"
+          }
+        ]
+      }
+    ]
+  }
+]
