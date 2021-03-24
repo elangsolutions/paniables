@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card} from 'antd';
-import PngImage from "../../../../common/PngImage";
+import PngImage from "../ProductItemImage";
 
 const {Meta} = Card;
 
@@ -13,8 +13,8 @@ const ProductItem = (product) => {
     return (
         <Card
             hoverable
-            style={{width: 240}}
-            cover={<PngImage alt={comment} src={img}/>}
+            bordered={false}
+            cover={<PngImage alt={comment} src={defaultImage}/>}
         >
             <Meta title={title} description={description} price={price}/>
         </Card>

@@ -1,21 +1,22 @@
 import React from 'react'
-import Container from "../../common/Container";
-import ProductCategorySideLeft from '../../components/pages/products/ProductCategorySide'
+import {Layout} from 'antd'
+import ProductCategorySide from '../../components/pages/products/ProductCategorySide'
 import ProductGrid from "../../components/pages/products/ProductGrid";
-import {Row} from "antd";
 import 'antd/dist/antd.css';
 import '../../components/pages/products/index.css';
 
+const {Content, Sider} = Layout;
+
 const Products = () => {
 
-    return (<>
-        <Container>
-            <Row className ='container-row'>
-                <ProductCategorySideLeft side={'left'}/>
-                <ProductGrid/>
-            </Row>
-        </Container>
-    </>)
+    return (<><Layout>
+        <Sider>
+            <ProductCategorySide side={'left'}/>
+        </Sider>
+        <Content>
+            <ProductGrid/>
+        </Content>
+    </Layout></>)
 
 }
 
