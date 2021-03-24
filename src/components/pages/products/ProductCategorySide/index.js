@@ -10,14 +10,9 @@ const ProductCategorySide = () => {
 
     const {SubMenu} = Menu;
 
-
-    const handleClick = e => {
-        console.log('click ', e);
-    };
-
     return (<>
             <Menu
-                onClick={handleClick}
+                onClick={}
                 style={{width: 200}}
                 defaultSelectedKeys={['1']}
                 mode="inline"
