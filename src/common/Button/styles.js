@@ -8,21 +8,21 @@ export const Button = styled.button`
   width: 100%;
   border: ${(props) => (props.color ? '1px solid #2E186A' : '0px')};
   border-radius: 8px;
-  height: 60px;
+  height: 40px;
   outline: none;
   cursor: pointer;
   margin-top: 0.625rem;
   max-width: 180px;
 
   @media only screen and (max-width: 1024px) {
-    width: ${(props) => (props.width ? '160px' : '100%')};
+    width: ${(props) => (props.width ? '130px' : '100%')};
   }
 
   @media only screen and (max-width: 768px) {
-    width: ${(props) => (props.width ? '140px' : '100%')};
+    width: ${(props) => (props.width ? '110px' : '100%')};
   }
 
   @media only screen and (max-width: 480px) {
-    width: ${(props) => (props.width ? '130px' : '100%')};
+    width: ${(props) => (props.width ? '90px' : '100%')};
   }
 `;

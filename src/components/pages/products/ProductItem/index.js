@@ -14,10 +14,9 @@ const ProductItem = (product) => {
         <Card
             hoverable
             bordered={false}
-            cover={<PngImage alt={comment} src={defaultImage}/>}
-        >
-            <Meta title={title} description={description} price={price}/>
-        </Card>
+            style={{ width: 240 , height: 300   }}
+            // cover={<PngImage alt={comment} src={defaultImage}/>}
+        />
     )
 }
 

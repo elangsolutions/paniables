@@ -10,10 +10,10 @@ const {Content, Sider} = Layout;
 const Products = () => {
 
     return (<><Layout>
-        <Sider>
+        <Sider theme={'light'} >
             <ProductCategorySide side={'left'}/>
         </Sider>
-        <Content>
+        <Content style={{ padding: '0 24px', minHeight: 280 }}>
             <ProductGrid/>
         </Content>
     </Layout></>)

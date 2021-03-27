@@ -3,7 +3,7 @@ import _ from 'lodash'
 import {RightCircleOutlined} from '@ant-design/icons';
 import {Menu} from 'antd';
 import 'antd/dist/antd.css';
-import '../index.css';
+//import '../index.css';
 import categoryData from "../../../../content/pages/products/category"
 
 const ProductCategorySide = () => {
@@ -12,7 +12,6 @@ const ProductCategorySide = () => {
 
     return (<>
             <Menu
-                onClick={}
                 style={{width: 200}}
                 defaultSelectedKeys={['1']}
                 mode="inline"

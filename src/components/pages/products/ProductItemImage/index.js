@@ -1,5 +1,5 @@
 import React from 'react'
-import {Image} from 'antd/lib/index'
+import {Image} from 'antd'
 
 const ProducItemImage = ({src, width = 200, height = 200, maxWidth, maxHeight, borderRadius = '25px'}) => {
 
