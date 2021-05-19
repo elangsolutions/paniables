@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { MenuOutlined } from '@ant-design/icons';
+import { MenuOutlined , ShoppingCartOutlined } from '@ant-design/icons';
 
 export const Header = styled.header`
   padding: 1rem 0.5rem;
@@ -8,12 +8,13 @@ export const Header = styled.header`
 
 export const LogoContainer = styled(Link)`
   display: flex;
-  padding-top: 1rem;
+  padding-top: 0.55rem;
 `;
 
 export const Container = styled.div`
   position: relative;
   width: 100%;
+  height: 140px;
   text-align: center;
   max-width: 1280px;
   padding-right: 25px;
@@ -97,4 +98,8 @@ export const Outline = styled(MenuOutlined)`
 
 export const Span = styled.span`
   cursor: pointer;
+`;
+
+export const Cart = styled(ShoppingCartOutlined)`
+  font-size: 22px;
 `;

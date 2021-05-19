@@ -1,5 +1,5 @@
-import React, {useState, lazy} from "react";
-import {Row, Col, Drawer} from "antd";
+import React, {lazy, useState} from "react";
+import {Col, Drawer, Row} from "antd";
 import {CSSTransition} from "react-transition-group";
 import {withTranslation} from "react-i18next";
 import {useHistory, useLocation} from 'react-router-dom'
@@ -67,6 +67,7 @@ const Header = ({t}) => {
                         <SvgIcon src="../icons/paniables_logo.png"/>
                     </S.LogoContainer>
                     <S.NotHidden>
+                        <S.Cart onClick={() => history.push('/cart')}/>
                         <MenuItem/>
                     </S.NotHidden>
                     <S.Burger onClick={showDrawer}>
@@ -87,6 +88,9 @@ const Header = ({t}) => {
                                 </Col>
                                 <Col span={12}>
                                     <S.Outline padding="true"/>
+                                </Col>
+                                <Col>
+
                                 </Col>
                             </S.Label>
                         </Col>

@@ -9,6 +9,12 @@ const routes = [
     exact: true,
     component: "Products",
   },
+  {
+    path: ["/cart"],
+    exact: true,
+    component: "Cart",
+  },
+
 ];
 
 export default routes;

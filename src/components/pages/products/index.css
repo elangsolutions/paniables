@@ -4,7 +4,8 @@
 }
 
 [class~='ant-col'] > div {
-    height: 120px;
+    height: 300px;
+    width: 300px;
     font-size: 14px;
     line-height: 120px;
     background: #f9f9f9;

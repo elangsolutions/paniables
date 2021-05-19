@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SvgIcon = ({src, width, height, maxWidth, maxHeight, borderRadius = '25px'}) => {
+const SvgIcon = ({src, width = '100px', height = '100px', maxWidth, maxHeight, borderRadius = '25px'}) => {
 
         const style = {
             width,

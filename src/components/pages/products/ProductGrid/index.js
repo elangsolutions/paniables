@@ -6,15 +6,15 @@ import ProductItem from "../ProductItem";
 
 const ProductGrid = () => {
 
-    const productArray = []
+    const productArray = [1,2,3,4,5]
 
     return (<>
-        <Row gutter={[12, 12]} justify={'start'}>
+        <Row gutter={[6, 6]} justify={'center'} >
             {
                 productArray.map( product =>
                     (<Col span={6}>
                             <ProductItem/>
-                        </Col>
+                    </Col>
                     ))
             }
         </Row>
